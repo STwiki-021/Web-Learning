@@ -1,0 +1,15 @@
+.container{  
+    float: left;  
+    display: inline-block;  
+    position: relative;  
+}  
+@keyframes blink-caret { 50% { background-color: transparent; } }  
+span{  
+    animation:blink-caret 1s step-end infinite;  
+    width: 3px;  
+    height: 20px;  
+    background-color: #000;  
+    float: left;  
+    position: absolute;  
+    right: -4px;  
+}  

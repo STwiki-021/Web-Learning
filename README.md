@@ -1,7 +1,17 @@
-# WebEditor
+# Web Learning
 
-A Web Editor named prism on http://prismjs.com/
+Contains some projects used when learning web tech.
 
-There is some introduction on https://www.jianshu.com/p/f61365fb9f30
+More introduction will be going with my articles on https://www.jianshu.com/
 
-This repo contains the prism.js, prism.css that I may use together with some example code.
+## typeMechine
+
+Used for show a typing effect.
+
+## HTMLEditor
+
+Editors for HTML. Including Code Showing & Online editor.
+
+## sqlLearning
+
+Some useful example code for me to use when using php together with MySQL.
