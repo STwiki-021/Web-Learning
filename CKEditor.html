@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Test for an web editor.</title>
+</head>
+<body>
+    <script src="https://cdn.ckeditor.com/ckeditor5/1.0.0-beta.1/inline/ckeditor.js"></script>
+    <h1>Inline editor</h1>
+    <div id="editor">
+        <p>This is some sample content.</p>
+    </div>
+    <script>
+        InlineEditor
+            .create( document.querySelector( '#editor' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/1.0.0-beta.1/classic/ckeditor.js"></script>
+    <h1>Classic editor</h1>
+    <div id="claeditor">
+        <p>This is some sample content.</p>
+    </div>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#claeditor' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
+</body>
